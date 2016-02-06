@@ -19,4 +19,6 @@ Both the `Fetch` and `Task` plugins require the following environment variables 
 
 In addition to the above, the `Publish` plugin also requires `GO_SERVER_DASHBOARD_URL` environment variable. `GO_SERVER_DASHBOARD_URL` is the url of the Go server web UI (dashboard). This is needed to reliably determine the dashboard url so that we can provide a trackback url to the source of the artifacts.
 
+With the new release (from 2.0.0) when publishing artifacts you can optionaly choose the storage class using the `AWS_STORAGE_CLASS` environment variable. The accepted values are `standard`, `standard-ia`, `rrs` and `glacier`.
+
 [1]: http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/AmazonS3Client.html#AmazonS3Client()
