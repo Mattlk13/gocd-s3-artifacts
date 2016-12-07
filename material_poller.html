@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
-<html lang="en-US" >
+<html lang="en" >
     
     <head>
         
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Material Poller | GoCD S3 Artifacts</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 1.5.0">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +18,26 @@
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
         
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
         
     
     
@@ -30,86 +52,79 @@
     <body>
         
         
-<link rel="stylesheet" href="gitbook/style.css">
-
-    
-    <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-anchors/plugin.css">
-    
-
-
-        
-    <div class="book" data-level="3" data-basepath="." data-revision="1451284623939">
+    <div class="book"
+        data-level="3"
+        data-chapter-title="Material Poller"
+        data-filepath="material_poller.md"
+        data-basepath="."
+        data-revision="Wed Dec 07 2016 15:08:21 GMT+0530 (IST)"
+        data-innerlanguage="">
     
 
 <div class="book-summary">
-    <div class="book-search">
-        <input type="text" placeholder="Type to search" class="form-control" />
-    </div>
-    <ul class="summary">
-        
-    	
-    	
-    	    
-            <li>
-                <a href="http://ind9.github.io/gocd-s3-artifacts" target="blank" class="custom-link">Home</a>
-            </li>
-    	
-    	    
-            <li>
-                <a href="https://github.com/ind9/gocd-s3-artifacts" target="blank" class="custom-link">Contribute</a>
-            </li>
-    	
-    	
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="http://oss.indix.com/gocd-s3-artifacts" target="blank" class="custom-link">Home</a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://github.com/indix/gocd-s3-artifacts" target="blank" class="custom-link">Contribute</a>
+                </li>
+            
+            
 
-        
-        <li class="divider"></li>
-        
+            
+            <li class="divider"></li>
+            
 
-        
+            
     
-        
         <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="./index.html">
+                
                         <i class="fa fa-check"></i>
                         
-                         Introduction
+                        Introduction
                     </a>
-                
             
             
         </li>
     
-        
         <li class="chapter " data-level="1" data-path="installation.html">
             
                 
                     <a href="./installation.html">
+                
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
                         
-                         Installation
+                        Installation
                     </a>
-                
             
             
             <ul class="articles">
                 
     
-        
         <li class="chapter " data-level="1.1" data-path="required_environment_variables.html">
             
                 
                     <a href="./required_environment_variables.html">
+                
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
                         
-                         Required environment variables
+                        Required environment variables
                     </a>
-                
             
             
         </li>
@@ -119,130 +134,69 @@
             
         </li>
     
-        
         <li class="chapter " data-level="2" data-path="publish.html">
             
                 
                     <a href="./publish.html">
+                
                         <i class="fa fa-check"></i>
                         
                             <b>2.</b>
                         
-                         Publish
+                        Publish
                     </a>
-                
             
             
         </li>
     
-        
         <li class="chapter active" data-level="3" data-path="material_poller.html">
             
                 
                     <a href="./material_poller.html">
+                
                         <i class="fa fa-check"></i>
                         
                             <b>3.</b>
                         
-                         Material Poller
+                        Material Poller
                     </a>
-                
             
             
         </li>
     
-        
         <li class="chapter " data-level="4" data-path="fetch.html">
             
                 
                     <a href="./fetch.html">
+                
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
                         
-                         Fetch
+                        Fetch
                     </a>
-                
             
             
         </li>
     
 
 
-        
-        <li class="divider"></li>
-        <li>
-            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
-        </li>
-        
-    </ul>
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
 </div>
 
     <div class="book-body">
         <div class="body-inner">
-            <div class="book-header">
+            <div class="book-header" role="navigation">
     <!-- Actions Left -->
-    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
-    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
-    
-    <div id="font-settings-wrapper" class="dropdown pull-left">
-        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
-        </a>
-        <div class="dropdown-menu font-settings">
-    <div class="dropdown-caret">
-        <span class="caret-outer"></span>
-        <span class="caret-inner"></span>
-    </div>
-
-    <div class="buttons">
-        <button type="button" id="reduce-font-size" class="button size-2">A</button>
-        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
-    </div>
-
-    <div class="buttons font-family-list">
-        <button type="button" data-font="0" class="button">Serif</button>
-        <button type="button" data-font="1" class="button">Sans</button>
-    </div>
-
-    <div class="buttons color-theme-list">
-        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
-        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
-        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
-    </div>
-</div>
-
-    </div>
-
-    <!-- Actions Right -->
-    
-    <div class="dropdown pull-right">
-        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
-        </a>
-        <div class="dropdown-menu font-settings dropdown-left">
-            <div class="dropdown-caret">
-                <span class="caret-outer"></span>
-                <span class="caret-inner"></span>
-            </div>
-            <div class="buttons">
-                <button type="button" data-sharing="twitter" class="button">Twitter</button>
-                <button type="button" data-sharing="google-plus" class="button">Google</button>
-                <button type="button" data-sharing="facebook" class="button">Facebook</button>
-                <button type="button" data-sharing="weibo" class="button">Weibo</button>
-                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
-            </div>
-        </div>
-    </div>
-    
-
-    
-    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
-    
-    
-    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
-    
-    
-    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
-    
     
 
     <!-- Title -->
@@ -252,33 +206,33 @@
     </h1>
 </div>
 
-            <div class="page-wrapper" tabindex="-1">
+            <div class="page-wrapper" tabindex="-1" role="main">
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_4">
+                    <section class="normal" id="section-">
                     
-                        <h1 id="material-poller"><a name="material-poller" class="plugin-anchor" href="#material-poller"><span class="fa fa-link"></span></a>Material Poller</h1>
+                        <h1 id="material-poller">Material Poller</h1>
 <p>This is a package repository plugin that polls S3 for artifacts and triggers the pipeline as appropriate.</p>
-<h2 id="adding-the-package-repository"><a name="adding-the-package-repository" class="plugin-anchor" href="#adding-the-package-repository"><span class="fa fa-link"></span></a>Adding the package repository</h2>
+<h2 id="adding-the-package-repository">Adding the package repository</h2>
 <p>The package repository can be configured by heading to <code>Admin -&gt; Package Repositories</code></p>
 <p>In the <code>Add Package Repository</code> form, provide a name for the S3 package repository. This is a unique name to identify the S3 package repository.</p>
 <p>Next, choose <code>s3material</code> as the <code>Type</code> of the package repository. This should bring up a text box to enter the S3 bucket name. Enter the name of the bucket where you want to store the artifacts in this field.</p>
 <p>Use the <code>Check Connection</code> button to verify that the credentials are fine and the provided bucket exists. This state is shown in the following screenshot:</p>
-<p><img src="material_configuration.png" alt=""></p>
+<p><img src="resources/images/material_configuration.png" alt=""></p>
 <p>Click on <code>Save</code> to add the S3 package repository.</p>
-<h2 id="configuring-as-material"><a name="configuring-as-material" class="plugin-anchor" href="#configuring-as-material"><span class="fa fa-link"></span></a>Configuring as material</h2>
+<h2 id="configuring-as-material">Configuring as material</h2>
 <p>Once the package has been created, we can add a Package material to any pipeline. The steps for adding the package material to an existing pipeline or to a new one are the same.</p>
 <p>Following <code>Materials</code> tab of an existing pipeline, choose <code>Add Material</code> and select <code>Package</code>. The <code>Add Material - Package</code> dialog comes up. Here, choose the Repository name (<code>gocd</code> in the example) and choose to define a new package. On doing this, the <code>New Package</code> form comes up.</p>
 <p>Provide an identifiable name for the <code>Package Name</code>. Also configure the <code>Pipeline Name</code>, <code>Stage Name</code> and <code>Job Name</code> based on where we want to get the artifacts from.</p>
 <p>Click on <code>Check Package</code> to ensure that we have entered the right pipeline, stage and job details, and that the artifacts exist on S3.</p>
 <p>This state is shown in the following screenshot:</p>
-<p><img src="material_package_configuration.png" alt=""></p>
+<p><img src="resources/images/material_package_configuration.png" alt=""></p>
 <p>Click on <code>Save Package And Material</code> button to save the new package and material.</p>
 <p>Note that the saved package can be reused in other jobs/pipelines.</p>
-<h2 id="trackback-and-artifact-information"><a name="trackback-and-artifact-information" class="plugin-anchor" href="#trackback-and-artifact-information"><span class="fa fa-link"></span></a>Trackback and artifact information</h2>
+<h2 id="trackback-and-artifact-information">Trackback and artifact information</h2>
 <p>Once the material is added, it will poll for new artifacts on S3. If found, a new run of the pipeline will be triggered. The Trackback URL will point to the source of the artifacts, as shown in the following screenshot:</p>
-<p><img src="material_trackback.png" alt=""></p>
+<p><img src="resources/images/material_trackback.png" alt=""></p>
 <p>The material plugin will also set environment variables that identify the source label, S3 bucket, pipeline name, stage name and job name, as shown form the job log output below:</p>
 <pre><code>[go] setting environment variable &apos;GO_PACKAGE_GOCD_TESTPUBLISHS3ARTIFACTS_LABEL&apos; to value &apos;11.1&apos;
 [go] setting environment variable &apos;GO_REPO_GOCD_TESTPUBLISHS3ARTIFACTS_S3_BUCKET&apos; to value &apos;gocd&apos;
@@ -312,21 +266,29 @@
     
 
     
-    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"ga":{"token":"UA-59836563-1","configuration":"auto"}};
+    var config = {"ga":{"token":"UA-59836563-1","configuration":"auto"},"anchors":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
     gitbook.start(config);
 });
 </script>
 
-        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59836563-1', 'auto');ga('send', 'pageview');</script>
+        
     </body>
     
 </html>
